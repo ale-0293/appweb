@@ -1,0 +1,47 @@
+# === Java y Maven ===
+target/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+*.log
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+
+# === NetBeans ===
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# === VSCode ===
+.vscode/
+
+# === Sistema Operativo ===
+.DS_Store
+Thumbs.db
+
+# === Archivos temporales y de backup ===
+*.tmp
+*.bak
+*.swp
+
+# === Configuración de entorno ===
+.env
+*.env
+*.properties.local
+
+# === Docker ===
+*.pid
+*.seed
+docker-compose.override.yml
+
+# === PostgreSQL dumps ===
+*.sql
+*.dump
+*.backup
